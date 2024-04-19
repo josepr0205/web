@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Emprendimiento</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <img class="logo-1" src="images/logoo.png" />
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" />
+            </label>
+
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#inf">Informacion</a></li>
+                        <li><a href="#Parthers">Parthers</a></li>
+                    </ul>
+                </div>
+
+                <img class="logo-2" src="images/logoo.png" alt="" />
+
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#contact">Horario</a></li>
+                    </ul>
+
+                    <div class="socials">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <div class="socials">
+                                <img src="images/s1.svg" alt="" />
+                            </div>
+                        </a>
+
+                        <a href="https://twitter.com/home?lang=es" target="_blank">
+                            <div cla ss="socials">
+                                <img src="images/s2.svg" alt="" />
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <div class="socials">
+                                <img src="images/s3.svg" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    La Hamburguesa Suprema Gourmet es una obra maestra culinaria, diseñada para
+                                    los paladares más exigentes. Cada elemento ha sido seleccionado meticulosamente para
+                                    crear una experiencia inolvidable, pan, carne de res, lechuga, tomate, cebolla y
+                                    queso.
+                                </p>
+                                <div class="botones">
+                                    <a href="#b1" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hot Dog</h1>
+                                <p>
+                                    El Hot Dog Gourmet es una experiencia culinaria que eleva el
+                                    clásico hot dog a un nivel de sofisticación y sabor sin precedentes. Cada
+                                    ingrediente ha sido seleccionado con el máximo cuidado para garantizar una
+                                    combinación perfecta de texturas y sabores, pan, salchicha, topping y salsas.
+                                </p>
+                                <div class="botones">
+                                    <a href="#b2" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="images/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Pizza</h1>
+                                <p>
+                                    La Pizza Queso Gourmet es la Especialidad de la Casa. Es una celebración del sabor y la textura que
+                                    solo el queso puede ofrecer. Cada ingrediente ha sido escogido para complementar y
+                                    realzar el protagonista de esta creación: una mezcla selecta de quesos.
+                                </p>
+                                <div class="botones">
+                                    <a href="#b3" class="btn-1">Comprar</a>
+                                    <a href="#" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+
+                            <div class="slider-img">
+                                <img src="images/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="products">
+        <div class="tabs container" id="b1">
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Hamburguesa</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Grande</p>
+                                    <span class="price">$9.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product" id="b2">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Mediano</p>
+                                    <span class="price">$6.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Pequeño</p>
+                                    <span class="price">$3.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Hot Dog</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product" id="b2">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Grande</p>
+                                    <span class="price">$9.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Mediano</p>
+                                    <span class="price">$6.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Pequeño</p>
+                                    <span class="price">$3.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3" id="b3">Pizza</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Grande</p>
+                                    <span class="price">$9.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Mediano</p>
+                                    <span class="price">$6.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/h3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Producto</h4>
+                                    <p>Pequeño</p>
+                                    <span class="price">$3.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="images/info.png" alt="">
+        </div>
+
+        <div class="info-txt" id="inf">
+            <h2>Información</h2>
+            <p>
+                Nos especializamos en satisfacer tus antojos con rapidez y calidad. Somos una cadena de comida rápida
+                que combina la
+                eficiencia de servicio con el sabor excepcional de platos que se preparan al momento. Nuestro menú está
+                diseñado para
+                ofrecer una amplia gama de opciones, hamburguesas, hot dogs y pizzas.
+            </p>
+            <a href="#" class="btn-2">Más Informacion</a>
+        </div>
+
+    </section>
+
+    <section class="horario">
+        <div class="horario-info container" id="contact">
+
+            <h2>CONTACTO</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>DIRECCION</h4>
+                    <p>
+                        Sabana Grande
+                    </p>
+                    <p>
+                        El Cuji Via Duaca
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>HORARIO</h4>
+                    <p>
+                        Lunes a Viernes: 9 am - 8 pm
+                    </p>
+                    <p>
+                        Sabados y Domingos: 9am - 4 pm
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>TELEFONOS</h4>
+                    <p>
+                        0412-4438709
+                    </p>
+                    <p>
+                        0251-8859387
+                    </p>
+                </div>
+                <div class="txt">
+                    <h4>REDES SOCIALES</h4>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <div class="socials">
+                                <img src="images/s1.svg" alt="" />
+                            </div>
+                        </a>
+
+                        <a href="https://twitter.com/home" target="_blank">
+                            <div cla ss="socials">
+                                <img src="images/s2.svg" alt="" />
+                            </div>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <div class="socials">
+                                <img src="images/s3.svg" alt="" />
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer container" id="Parthers">
+
+        <img class="logo-2" src="images/logoo.png" alt="">
+        <div class="links">
+            <h4>PATROCINADORES</h4>
+            <center>
+                <ul>
+                    <li><a href="#">loreem</a></li>
+                    <li><a href="#">loreem</a></li>
+                    <li><a href="#">loreem</a></li>
+                    <li><a href="#">loreem</a></li>
+                </ul>
+            </center>
+        </div>
+
+        <div class="links">
+            <h4>SIGUENOS</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <div class="socials">
+                        <img src="images/s1.svg" alt="" />
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/home" target="_blank">
+                    <div cla ss="socials">
+                        <img src="images/s2.svg" alt="" />
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank">
+                    <div class="socials">
+                        <img src="images/s3.svg" alt="" />
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="derechos">
+        <center><h3>Todos los derechos reservados</h3></center>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
